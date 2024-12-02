@@ -1,7 +1,7 @@
-# 2. Add Two Numbers
+# 2. 두 수 더하기
 
 <!-- Language and Info Table Set for English -->
-[한글 버전/KOREAN Ver](README_ko.md)
+[영문 버전/ENGLISH Ver](README.md)
 
 |Difficulty |Topics |Hints |URL |
 |---:|---:|---:|---:|
@@ -12,52 +12,56 @@
 
 <!-- Contents -->
 ## Table of Contents
-- [Description](#description)
-- [Examples](#examples)
+- [설명](#설명)
+- [예제](#예제)
 - [Solutions](#solutions)
 
 <!-- Find class "elfjS" in Origianl html -->
-## Description
+## 설명
 
-<div class="elfjS" data-track-load="description_content"><p>You are given two <strong>non-empty</strong> linked lists representing two non-negative integers. The digits are stored in <strong>reverse order</strong>, and each of their nodes contains a single digit. Add the two numbers and return the sum&nbsp;as a linked list.</p>
-
-<p>You may assume the two numbers do not contain any leading zero, except the number 0 itself.</p>
-
-<p>&nbsp;</p>
-
-## Examples
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/10/02/addtwonumber1.jpg" style="width: 483px; height: 342px;">
-<pre><strong>Input:</strong> l1 = [2,4,3], l2 = [5,6,4]
-<strong>Output:</strong> [7,0,8]
-<strong>Explanation:</strong> 342 + 465 = 807.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre><strong>Input:</strong> l1 = [0], l2 = [0]
-<strong>Output:</strong> [0]
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre><strong>Input:</strong> l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
-<strong>Output:</strong> [8,9,9,9,0,0,0,1]
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li>The number of nodes in each linked list is in the range <code>[1, 100]</code>.</li>
-	<li><code>0 &lt;= Node.val &lt;= 9</code></li>
-	<li>It is guaranteed that the list represents a number that does not have leading zeros.</li>
-</ul>
+<div class="elfjS" data-track-load="description_content">
+    <p>두 개의 <strong>비어 있지 않은</strong> 연결 리스트가 주어지며, 이는 두 개의 음이 아닌 정수를 나타냅니다.<br>
+    숫자는 <strong>역순</strong>으로 저장되어 있으며, 각 노드는 한 자리 숫자를 포함하고 있습니다.<br>
+    두 숫자를 더한 결과를 연결 리스트로 반환하세요.</p>
+    <br>
+    <p>두 숫자는 숫자 0 자체를 제외하고는 선행 0이 포함되지 않는다고 가정할 수 있습니다.</p>
 </div>
 
 <p>&nbsp;</p>
 
-## Solution
+## 예제
+
+<p><strong class="example">예제 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/10/02/addtwonumber1.jpg" style="width: 483px; height: 342px;">
+<pre><strong>입력:</strong> l1 = [2,4,3], l2 = [5,6,4]
+<strong>출력:</strong> [7,0,8]
+<strong>설명:</strong> 342 + 465 = 807.
+</pre>
+
+<p><strong class="example">예제 2:</strong></p>
+
+<pre><strong>입력:</strong> l1 = [0], l2 = [0]
+<strong>출력:</strong> [0]
+</pre>
+
+<p><strong class="example">예제 3:</strong></p>
+
+<pre><strong>입력:</strong> l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
+<strong>출력:</strong> [8,9,9,9,0,0,0,1]
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>제약:</strong></p>
+
+<ul>
+	<li>각 연결 리스트의 노드 개수는 <code>[1, 100]</code> 범위에 속합니다.</li>
+	<li><code>0 &lt;= Node.val &lt;= 9</code></li>
+	<li>리스트는 선행 0이 없는 숫자를 나타냅니다.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+## Solutions
 
 #### JAVA
 ```java

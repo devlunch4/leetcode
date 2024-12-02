@@ -1,6 +1,6 @@
 # NUM TITLE
 
-[한글 버전/KOREAN Ver](README_ko.md)
+[영문 버전/ENGLISH Ver](README.md)
 
 |Difficulty |Topics |Hints |URL |
 |---:|---:|---:|---:|
@@ -10,16 +10,16 @@
 <p>&nbsp;</p>
 
 ## Table of Contents
-- [Description](#description)
-- [Examples](#examples)
+- [설명](#설명)
+- [예제](#예제)
 - [Solutions](#solutions)
 
 <!-- Find class "elfjS" in Origianl html -->
-## Description
+## 설명
 ABC
 <p>&nbsp;</p>
 
-## Examples
+## 예제
 ABC
 <p>&nbsp;</p>
 
